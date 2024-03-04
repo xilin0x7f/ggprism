@@ -1,3 +1,14 @@
+# ggprism 1.0.5
+```r
+# 新加对ggplot2 3.5.0的支持
+rio::import("data/ggprism_data")
+# ggprism::ggprism_data$themes[["all_null"]]内的legend.text.align, legend.title.align两个变量
+ggprism_data$themes[["all_null"]]$legend.text.align <- NULL
+ggprism_data$themes[["all_null"]]$legend.title.align <- NULL
+a <- list(ggprism_data=ggprism_data)
+rio::export(a, "data/ggprism_data.rda")
+```
+
 # ggprism 1.0.4
 
 * Update wings vignette with `linewidth` aesthetic from ggplot2 v3.4.0

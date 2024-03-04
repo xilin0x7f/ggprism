@@ -1,6 +1,6 @@
 Package: ggprism
 Title: A 'ggplot2' Extension Inspired by 'GraphPad Prism'
-Version: 1.0.4
+Version: 1.0.5
 Authors@R: 
     person(given = "Charlotte",
            family = "Dawson",
@@ -18,7 +18,7 @@ BugReports: https://github.com/csdaw/ggprism/issues
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.1
 Depends: 
     R (>= 3.2)
 Imports: 
